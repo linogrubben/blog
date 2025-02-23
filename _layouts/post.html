@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<a href="{{ '/' | relative_url }}" class="back-link">Home</a>
+<h1 class="page-title">{{ page.title }}</h1>
+<p style="font-size: 12px; color: #8c8c8d;">
+  {{ page.date | date_to_string }}
+</p>
+
+{% if page.hero_image %}
+  <img src="{{ page.hero_image | relative_url }}" alt="" style="margin: 16px 0;">
+{% endif %}
+
+<div style="line-height: 1.5;">
+  {{ content }}
+</div>

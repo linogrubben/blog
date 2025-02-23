@@ -1,0 +1,6 @@
+title: "Lino Grubben"
+description: ""
+baseurl: ""
+url: ""
+plugins:
+  - jekyll-feed
