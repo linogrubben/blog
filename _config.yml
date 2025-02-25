@@ -1,6 +1,7 @@
 title: "Lino Grubben"
-description: ""
+description: "I'm a designer and entrepreneur writing about product, design, and what else is on my mind."
 baseurl: ""
-url: ""
+url: "https://linogrubben.com"
+permalink: /:title/
 plugins:
   - jekyll-feed

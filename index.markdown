@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Lino Grubben
+title: Home
 ---
-
-<h1 class="page-title">Lino Grubben</h1>
-<p class="bio">
-  I’m a designer and entrepreneur writing about product, design,
-  and what else is on my mind.
-</p>
 
 {% for post in site.posts %}
   <div class="post-item">
